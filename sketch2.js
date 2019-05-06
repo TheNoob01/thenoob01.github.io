@@ -9,7 +9,7 @@ function preload(){
 function modelLoaded(){
     console.log("#ModelLoaded");
     document.getElementById("predictButton").innerHTML="Predict";
-    if(document.getElementById("fileName").value=="") document.getElementById("label").innerHTML="Paste Link and Press Predict"; 
+    if(document.getElementById("fileName").value=="") document.getElementById("label").innerHTML="Paste valid Link and Press Predict"; 
 }
 
 function predict(){
