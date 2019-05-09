@@ -19,8 +19,8 @@ function predict(){
 }
 
 function imgLoaded(){
-    createCanvas(img.height/3,img.width/3);
-    image(img,0,0,img.height/3,img.width/3);
+    createCanvas(img.height/2,img.width/2);
+    image(img,0,0,img.height/2,img.width/2);
     mobilenetData.predict(img,gotResults);
 }
 
